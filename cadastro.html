@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Aplicativo de Personalização de Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aplicativo de Personalização de Música</h1>
+        <nav>
+            <a href="user.html">Cadastrar Usuário</a>
+            <a href="playlist.html">Criar Playlist</a>
+            <a href="login.html">Já é cadastrado?</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Login</h2>
+        <form action="login_processing.php" method="post">
+            <label for="username">Nome de Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Entrar</button>
+        </form>
+        <p><a href="index.html">Voltar para a página inicial</a></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
